@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "historian-hysteria-1"
+]
+resolver = "3"
