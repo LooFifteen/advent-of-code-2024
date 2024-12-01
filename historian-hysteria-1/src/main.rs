@@ -26,7 +26,7 @@ fn part_one() {
     a.sort();
     b.sort();
 
-    let sum: u32 = a.iter().zip(b.iter()).map(|(a, b)| a.abs_diff(*b)).sum();
+    let sum: u32 = a.iter().zip(b).map(|(a, b)| a.abs_diff(b)).sum();
     println!("Part One: {}", sum);
 }
 
